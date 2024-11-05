@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  description: A collection of all groups
+  name: groups
+spec:
+  targets:
+  - ./potatoes_1.local.yaml
+  - ./carrots_4.local.yaml

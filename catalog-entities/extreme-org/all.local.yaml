@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  description: A collection of all entities
+  name: entities
+spec:
+  targets:
+  - ./base-user.local.yaml
+  - ./groups/groups.local.yaml
+  - ./users/users.local.yaml

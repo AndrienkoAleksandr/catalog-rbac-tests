@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  description: A collection of all users
+  name: users
+spec:
+  targets:
+  - ./cabbage_2.local.yaml
+  - ./broccoli_3.local.yaml
+  - ./beet_5.local.yaml
+  - ./garlic_6.local.yaml
