@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: AndrienkoAleksandr
+spec:
+  profile:
+    displayName: Oleksander Andriienko
+    email: oandriie@redhat.com

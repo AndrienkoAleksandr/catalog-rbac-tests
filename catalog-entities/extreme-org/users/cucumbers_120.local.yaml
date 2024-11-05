@@ -1,0 +1,55 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: grape_0_120
+spec:
+  memberOf:
+  - cucumbers_120
+  profile:
+    displayName: Grape 0 120
+    email: grape-0-120@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: guava_1_120
+spec:
+  memberOf:
+  - cucumbers_120
+  profile:
+    displayName: Guava 1 120
+    email: guava-1-120@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: kiwi_2_120
+spec:
+  memberOf:
+  - cucumbers_120
+  profile:
+    displayName: Kiwi 2 120
+    email: kiwi-2-120@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: papaya_3_120
+spec:
+  memberOf:
+  - cucumbers_120
+  profile:
+    displayName: Papaya 3 120
+    email: papaya-3-120@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: elderberry_4_120
+spec:
+  memberOf:
+  - cucumbers_120
+  profile:
+    displayName: Elderberry 4 120
+    email: elderberry-4-120@example.com
+---

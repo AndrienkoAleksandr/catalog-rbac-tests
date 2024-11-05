@@ -1,0 +1,309 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: carrots_63
+  title: Carrots 63
+spec:
+  children: []
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rutabaga_64
+  title: Rutabaga 64
+spec:
+  children: []
+  parent: carrots_63
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: daikon_66
+  title: Daikon 66
+spec:
+  children: []
+  parent: rutabaga_64
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: kohlrabi_70
+  title: Kohlrabi 70
+spec:
+  children: []
+  parent: daikon_66
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: broccolini_78
+  title: Broccolini 78
+spec:
+  children: []
+  parent: kohlrabi_70
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_79
+  title: Parsnips 79
+spec:
+  children: []
+  parent: kohlrabi_70
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: broccolini_71
+  title: Broccolini 71
+spec:
+  children: []
+  parent: daikon_66
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mushrooms_80
+  title: Mushrooms 80
+spec:
+  children: []
+  parent: broccolini_71
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: yam_81
+  title: Yam 81
+spec:
+  children: []
+  parent: broccolini_71
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: jicama_67
+  title: Jicama 67
+spec:
+  children: []
+  parent: rutabaga_64
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: onions_72
+  title: Onions 72
+spec:
+  children: []
+  parent: jicama_67
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchini_82
+  title: Zucchini 82
+spec:
+  children: []
+  parent: onions_72
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_83
+  title: Gourds 83
+spec:
+  children: []
+  parent: onions_72
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: yam_73
+  title: Yam 73
+spec:
+  children: []
+  parent: jicama_67
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mushrooms_84
+  title: Mushrooms 84
+spec:
+  children: []
+  parent: yam_73
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: squash_85
+  title: Squash 85
+spec:
+  children: []
+  parent: yam_73
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: celeriac_65
+  title: Celeriac 65
+spec:
+  children: []
+  parent: carrots_63
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: chicory_68
+  title: Chicory 68
+spec:
+  children: []
+  parent: celeriac_65
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: onions_74
+  title: Onions 74
+spec:
+  children: []
+  parent: chicory_68
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_86
+  title: Gourds 86
+spec:
+  children: []
+  parent: onions_74
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: avocado_87
+  title: Avocado 87
+spec:
+  children: []
+  parent: onions_74
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: spinach_75
+  title: Spinach 75
+spec:
+  children: []
+  parent: chicory_68
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: broccolini_88
+  title: Broccolini 88
+spec:
+  children: []
+  parent: spinach_75
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: turnips_89
+  title: Turnips 89
+spec:
+  children: []
+  parent: spinach_75
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: garlic_69
+  title: Garlic 69
+spec:
+  children: []
+  parent: celeriac_65
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_76
+  title: Parsnips 76
+spec:
+  children: []
+  parent: garlic_69
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: okra_90
+  title: Okra 90
+spec:
+  children: []
+  parent: parsnips_76
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peppers_91
+  title: Peppers 91
+spec:
+  children: []
+  parent: parsnips_76
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peas_77
+  title: Peas 77
+spec:
+  children: []
+  parent: garlic_69
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rutabaga_92
+  title: Rutabaga 92
+spec:
+  children: []
+  parent: peas_77
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: broccoli_93
+  title: Broccoli 93
+spec:
+  children: []
+  parent: peas_77
+  type: team
+---

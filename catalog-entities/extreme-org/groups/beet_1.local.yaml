@@ -1,0 +1,309 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: beet_1
+  title: Beet 1
+spec:
+  children: []
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_2
+  title: Gourds 2
+spec:
+  children: []
+  parent: beet_1
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: lettuce_4
+  title: Lettuce 4
+spec:
+  children: []
+  parent: gourds_2
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: shallots_8
+  title: Shallots 8
+spec:
+  children: []
+  parent: lettuce_4
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: lettuce_16
+  title: Lettuce 16
+spec:
+  children: []
+  parent: shallots_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: radish_17
+  title: Radish 17
+spec:
+  children: []
+  parent: shallots_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_9
+  title: Cucumbers 9
+spec:
+  children: []
+  parent: lettuce_4
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cress_18
+  title: Cress 18
+spec:
+  children: []
+  parent: cucumbers_9
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tomatoes_19
+  title: Tomatoes 19
+spec:
+  children: []
+  parent: cucumbers_9
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: radish_5
+  title: Radish 5
+spec:
+  children: []
+  parent: gourds_2
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pumpkin_10
+  title: Pumpkin 10
+spec:
+  children: []
+  parent: radish_5
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: corn_20
+  title: Corn 20
+spec:
+  children: []
+  parent: pumpkin_10
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_21
+  title: Parsnips 21
+spec:
+  children: []
+  parent: pumpkin_10
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: beet_11
+  title: Beet 11
+spec:
+  children: []
+  parent: radish_5
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: onions_22
+  title: Onions 22
+spec:
+  children: []
+  parent: beet_11
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: broccoli_23
+  title: Broccoli 23
+spec:
+  children: []
+  parent: beet_11
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rhubarb_3
+  title: Rhubarb 3
+spec:
+  children: []
+  parent: beet_1
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: spinach_6
+  title: Spinach 6
+spec:
+  children: []
+  parent: rhubarb_3
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: squash_12
+  title: Squash 12
+spec:
+  children: []
+  parent: spinach_6
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: okra_24
+  title: Okra 24
+spec:
+  children: []
+  parent: squash_12
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_25
+  title: Parsnips 25
+spec:
+  children: []
+  parent: squash_12
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cress_13
+  title: Cress 13
+spec:
+  children: []
+  parent: spinach_6
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rhubarb_26
+  title: Rhubarb 26
+spec:
+  children: []
+  parent: cress_13
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pumpkin_27
+  title: Pumpkin 27
+spec:
+  children: []
+  parent: cress_13
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: broccolini_7
+  title: Broccolini 7
+spec:
+  children: []
+  parent: rhubarb_3
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: asparagus_14
+  title: Asparagus 14
+spec:
+  children: []
+  parent: broccolini_7
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: okra_28
+  title: Okra 28
+spec:
+  children: []
+  parent: asparagus_14
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: jicama_29
+  title: Jicama 29
+spec:
+  children: []
+  parent: asparagus_14
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tomatillo_15
+  title: Tomatillo 15
+spec:
+  children: []
+  parent: broccolini_7
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: kale_30
+  title: Kale 30
+spec:
+  children: []
+  parent: tomatillo_15
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peppers_31
+  title: Peppers 31
+spec:
+  children: []
+  parent: tomatillo_15
+  type: team
+---

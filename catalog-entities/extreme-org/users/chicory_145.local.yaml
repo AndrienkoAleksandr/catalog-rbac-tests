@@ -1,0 +1,55 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: apple_0_145
+spec:
+  memberOf:
+  - chicory_145
+  profile:
+    displayName: Apple 0 145
+    email: apple-0-145@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: kiwi_1_145
+spec:
+  memberOf:
+  - chicory_145
+  profile:
+    displayName: Kiwi 1 145
+    email: kiwi-1-145@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: cherry_2_145
+spec:
+  memberOf:
+  - chicory_145
+  profile:
+    displayName: Cherry 2 145
+    email: cherry-2-145@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: apple_3_145
+spec:
+  memberOf:
+  - chicory_145
+  profile:
+    displayName: Apple 3 145
+    email: apple-3-145@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: apricot_4_145
+spec:
+  memberOf:
+  - chicory_145
+  profile:
+    displayName: Apricot 4 145
+    email: apricot-4-145@example.com
+---

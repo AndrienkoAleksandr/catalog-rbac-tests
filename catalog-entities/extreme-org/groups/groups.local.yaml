@@ -5,5 +5,8 @@ metadata:
   name: groups
 spec:
   targets:
-  - ./potatoes_1.local.yaml
-  - ./carrots_4.local.yaml
+  - ./beet_1.local.yaml
+  - ./tomatillo_32.local.yaml
+  - ./carrots_63.local.yaml
+  - ./gourds_94.local.yaml
+  - ./broccolini_125.local.yaml

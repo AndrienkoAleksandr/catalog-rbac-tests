@@ -1,0 +1,309 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_94
+  title: Gourds 94
+spec:
+  children: []
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: broccolini_95
+  title: Broccolini 95
+spec:
+  children: []
+  parent: gourds_94
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: leeks_97
+  title: Leeks 97
+spec:
+  children: []
+  parent: broccolini_95
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: broccolini_101
+  title: Broccolini 101
+spec:
+  children: []
+  parent: leeks_97
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: potatoes_109
+  title: Potatoes 109
+spec:
+  children: []
+  parent: broccolini_101
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: yam_110
+  title: Yam 110
+spec:
+  children: []
+  parent: broccolini_101
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: jicama_102
+  title: Jicama 102
+spec:
+  children: []
+  parent: leeks_97
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: celeriac_111
+  title: Celeriac 111
+spec:
+  children: []
+  parent: jicama_102
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: daikon_112
+  title: Daikon 112
+spec:
+  children: []
+  parent: jicama_102
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: chicory_98
+  title: Chicory 98
+spec:
+  children: []
+  parent: broccolini_95
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: greens_103
+  title: Greens 103
+spec:
+  children: []
+  parent: chicory_98
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: spinach_113
+  title: Spinach 113
+spec:
+  children: []
+  parent: greens_103
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: asparagus_114
+  title: Asparagus 114
+spec:
+  children: []
+  parent: greens_103
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: avocado_104
+  title: Avocado 104
+spec:
+  children: []
+  parent: chicory_98
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_115
+  title: Gourds 115
+spec:
+  children: []
+  parent: avocado_104
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: okra_116
+  title: Okra 116
+spec:
+  children: []
+  parent: avocado_104
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: chicory_96
+  title: Chicory 96
+spec:
+  children: []
+  parent: gourds_94
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: spinach_99
+  title: Spinach 99
+spec:
+  children: []
+  parent: chicory_96
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peppers_105
+  title: Peppers 105
+spec:
+  children: []
+  parent: spinach_99
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: onions_117
+  title: Onions 117
+spec:
+  children: []
+  parent: peppers_105
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pumpkin_118
+  title: Pumpkin 118
+spec:
+  children: []
+  parent: peppers_105
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: potatoes_106
+  title: Potatoes 106
+spec:
+  children: []
+  parent: spinach_99
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: potatoes_119
+  title: Potatoes 119
+spec:
+  children: []
+  parent: potatoes_106
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_120
+  title: Cucumbers 120
+spec:
+  children: []
+  parent: potatoes_106
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: garlic_100
+  title: Garlic 100
+spec:
+  children: []
+  parent: chicory_96
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: celeriac_107
+  title: Celeriac 107
+spec:
+  children: []
+  parent: garlic_100
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tomatillo_121
+  title: Tomatillo 121
+spec:
+  children: []
+  parent: celeriac_107
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_122
+  title: Parsnips 122
+spec:
+  children: []
+  parent: celeriac_107
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: garlic_108
+  title: Garlic 108
+spec:
+  children: []
+  parent: garlic_100
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: okra_123
+  title: Okra 123
+spec:
+  children: []
+  parent: garlic_108
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mushrooms_124
+  title: Mushrooms 124
+spec:
+  children: []
+  parent: garlic_108
+  type: team
+---

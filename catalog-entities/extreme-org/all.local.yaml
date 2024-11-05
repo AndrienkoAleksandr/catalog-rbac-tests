@@ -6,5 +6,6 @@ metadata:
 spec:
   targets:
   - ./base-user.local.yaml
+  - ./admin-user.local.yaml
   - ./groups/groups.local.yaml
   - ./users/users.local.yaml
