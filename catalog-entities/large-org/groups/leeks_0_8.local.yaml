@@ -1,0 +1,249 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: leeks_0_8
+  title: Leeks 0 8
+spec:
+  children: []
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_1_8
+  title: Gourds 1 8
+spec:
+  children: []
+  parent: leeks_0_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_2_8
+  title: Cucumbers 2 8
+spec:
+  children: []
+  parent: gourds_1_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mushrooms_3_8
+  title: Mushrooms 3 8
+spec:
+  children: []
+  parent: leeks_0_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_4_8
+  title: Cucumbers 4 8
+spec:
+  children: []
+  parent: mushrooms_3_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_5_8
+  title: Gourds 5 8
+spec:
+  children: []
+  parent: cucumbers_4_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tomatoes_6_8
+  title: Tomatoes 6 8
+spec:
+  children: []
+  parent: gourds_1_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: leeks_7_8
+  title: Leeks 7 8
+spec:
+  children: []
+  parent: mushrooms_3_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_8_8
+  title: Parsnips 8 8
+spec:
+  children: []
+  parent: leeks_0_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: leeks_9_8
+  title: Leeks 9 8
+spec:
+  children: []
+  parent: leeks_0_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_10_8
+  title: Gourds 10 8
+spec:
+  children: []
+  parent: leeks_9_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_11_8
+  title: Parsnips 11 8
+spec:
+  children: []
+  parent: leeks_0_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: potatoes_12_8
+  title: Potatoes 12 8
+spec:
+  children: []
+  parent: gourds_1_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_13_8
+  title: Parsnips 13 8
+spec:
+  children: []
+  parent: mushrooms_3_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: turnips_14_8
+  title: Turnips 14 8
+spec:
+  children: []
+  parent: tomatoes_6_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchinis_15_8
+  title: Zucchinis 15 8
+spec:
+  children: []
+  parent: leeks_9_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: onions_16_8
+  title: Onions 16 8
+spec:
+  children: []
+  parent: zucchinis_15_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peppers_17_8
+  title: Peppers 17 8
+spec:
+  children: []
+  parent: gourds_10_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: carrots_18_8
+  title: Carrots 18 8
+spec:
+  children: []
+  parent: gourds_1_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_19_8
+  title: Cucumbers 19 8
+spec:
+  children: []
+  parent: turnips_14_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: carrots_20_8
+  title: Carrots 20 8
+spec:
+  children: []
+  parent: gourds_5_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchinis_21_8
+  title: Zucchinis 21 8
+spec:
+  children: []
+  parent: gourds_10_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: shallots_22_8
+  title: Shallots 22 8
+spec:
+  children: []
+  parent: zucchinis_21_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peppers_23_8
+  title: Peppers 23 8
+spec:
+  children: []
+  parent: onions_16_8
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_24_8
+  title: Gourds 24 8
+spec:
+  children: []
+  parent: zucchinis_21_8
+  type: team
+---

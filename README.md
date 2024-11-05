@@ -17,7 +17,7 @@ python tree.py -g 25 -u 2000 -r 250 -z 250
 -r the number of root groups that you want
 -z the number of roles that you will want
 
-Search and replace `<YOUR_USER_NAME>` with your username
+Search and replace `<YOUR_USERNAME_0>` with your username
 
 Add the following to your app-config
 

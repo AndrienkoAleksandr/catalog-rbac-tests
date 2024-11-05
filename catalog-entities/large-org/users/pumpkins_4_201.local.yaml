@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: lemon_397
+spec:
+  memberOf:
+  - pumpkins_4_201
+  profile:
+    displayName: Lemon 397
+    email: lemon-397@example.com
+---

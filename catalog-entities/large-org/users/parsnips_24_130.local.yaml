@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: fig_1896
+spec:
+  memberOf:
+  - parsnips_24_130
+  profile:
+    displayName: Fig 1896
+    email: fig-1896@example.com
+---

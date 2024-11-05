@@ -1,0 +1,249 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mushrooms_0_110
+  title: Mushrooms 0 110
+spec:
+  children: []
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_1_110
+  title: Parsnips 1 110
+spec:
+  children: []
+  parent: mushrooms_0_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: leeks_2_110
+  title: Leeks 2 110
+spec:
+  children: []
+  parent: parsnips_1_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peas_3_110
+  title: Peas 3 110
+spec:
+  children: []
+  parent: mushrooms_0_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pumpkins_4_110
+  title: Pumpkins 4 110
+spec:
+  children: []
+  parent: parsnips_1_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_5_110
+  title: Parsnips 5 110
+spec:
+  children: []
+  parent: peas_3_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peppers_6_110
+  title: Peppers 6 110
+spec:
+  children: []
+  parent: pumpkins_4_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tomatoes_7_110
+  title: Tomatoes 7 110
+spec:
+  children: []
+  parent: mushrooms_0_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peppers_8_110
+  title: Peppers 8 110
+spec:
+  children: []
+  parent: pumpkins_4_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_9_110
+  title: Cucumbers 9 110
+spec:
+  children: []
+  parent: peppers_6_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: potatoes_10_110
+  title: Potatoes 10 110
+spec:
+  children: []
+  parent: cucumbers_9_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: potatoes_11_110
+  title: Potatoes 11 110
+spec:
+  children: []
+  parent: tomatoes_7_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_12_110
+  title: Cucumbers 12 110
+spec:
+  children: []
+  parent: peas_3_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: turnips_13_110
+  title: Turnips 13 110
+spec:
+  children: []
+  parent: peppers_8_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_14_110
+  title: Gourds 14 110
+spec:
+  children: []
+  parent: turnips_13_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_15_110
+  title: Cucumbers 15 110
+spec:
+  children: []
+  parent: parsnips_5_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_16_110
+  title: Parsnips 16 110
+spec:
+  children: []
+  parent: potatoes_11_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_17_110
+  title: Parsnips 17 110
+spec:
+  children: []
+  parent: turnips_13_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_18_110
+  title: Gourds 18 110
+spec:
+  children: []
+  parent: pumpkins_4_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: leeks_19_110
+  title: Leeks 19 110
+spec:
+  children: []
+  parent: peas_3_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_20_110
+  title: Cucumbers 20 110
+spec:
+  children: []
+  parent: turnips_13_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchinis_21_110
+  title: Zucchinis 21 110
+spec:
+  children: []
+  parent: cucumbers_15_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tomatoes_22_110
+  title: Tomatoes 22 110
+spec:
+  children: []
+  parent: parsnips_5_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: onions_23_110
+  title: Onions 23 110
+spec:
+  children: []
+  parent: leeks_2_110
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_24_110
+  title: Gourds 24 110
+spec:
+  children: []
+  parent: pumpkins_4_110
+  type: team
+---

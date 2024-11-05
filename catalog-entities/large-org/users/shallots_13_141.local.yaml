@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: grape_325
+spec:
+  memberOf:
+  - shallots_13_141
+  profile:
+    displayName: Grape 325
+    email: grape-325@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: kiwi_962
+spec:
+  memberOf:
+  - shallots_13_141
+  profile:
+    displayName: Kiwi 962
+    email: kiwi-962@example.com
+---

@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: watermelon_1094
+spec:
+  memberOf:
+  - mushrooms_18_245
+  profile:
+    displayName: Watermelon 1094
+    email: watermelon-1094@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: elderberry_1246
+spec:
+  memberOf:
+  - mushrooms_18_245
+  profile:
+    displayName: Elderberry 1246
+    email: elderberry-1246@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: cherry_1932
+spec:
+  memberOf:
+  - mushrooms_18_245
+  profile:
+    displayName: Cherry 1932
+    email: cherry-1932@example.com
+---

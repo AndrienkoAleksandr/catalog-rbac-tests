@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: guava_1730
+spec:
+  memberOf:
+  - cucumbers_22_159
+  profile:
+    displayName: Guava 1730
+    email: guava-1730@example.com
+---

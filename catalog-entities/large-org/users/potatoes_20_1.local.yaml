@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: pear_285
+spec:
+  memberOf:
+  - potatoes_20_1
+  profile:
+    displayName: Pear 285
+    email: pear-285@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: elderberry_366
+spec:
+  memberOf:
+  - potatoes_20_1
+  profile:
+    displayName: Elderberry 366
+    email: elderberry-366@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: date_1666
+spec:
+  memberOf:
+  - potatoes_20_1
+  profile:
+    displayName: Date 1666
+    email: date-1666@example.com
+---

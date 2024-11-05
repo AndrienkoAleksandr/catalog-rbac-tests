@@ -1,0 +1,249 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peas_0_247
+  title: Peas 0 247
+spec:
+  children: []
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchinis_1_247
+  title: Zucchinis 1 247
+spec:
+  children: []
+  parent: peas_0_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: leeks_2_247
+  title: Leeks 2 247
+spec:
+  children: []
+  parent: peas_0_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchinis_3_247
+  title: Zucchinis 3 247
+spec:
+  children: []
+  parent: peas_0_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: onions_4_247
+  title: Onions 4 247
+spec:
+  children: []
+  parent: zucchinis_3_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_5_247
+  title: Gourds 5 247
+spec:
+  children: []
+  parent: leeks_2_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_6_247
+  title: Parsnips 6 247
+spec:
+  children: []
+  parent: gourds_5_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: potatoes_7_247
+  title: Potatoes 7 247
+spec:
+  children: []
+  parent: zucchinis_3_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_8_247
+  title: Gourds 8 247
+spec:
+  children: []
+  parent: zucchinis_1_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: carrots_9_247
+  title: Carrots 9 247
+spec:
+  children: []
+  parent: potatoes_7_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchinis_10_247
+  title: Zucchinis 10 247
+spec:
+  children: []
+  parent: peas_0_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mushrooms_11_247
+  title: Mushrooms 11 247
+spec:
+  children: []
+  parent: leeks_2_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_12_247
+  title: Parsnips 12 247
+spec:
+  children: []
+  parent: potatoes_7_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchinis_13_247
+  title: Zucchinis 13 247
+spec:
+  children: []
+  parent: onions_4_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: shallots_14_247
+  title: Shallots 14 247
+spec:
+  children: []
+  parent: zucchinis_1_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchinis_15_247
+  title: Zucchinis 15 247
+spec:
+  children: []
+  parent: shallots_14_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peppers_16_247
+  title: Peppers 16 247
+spec:
+  children: []
+  parent: mushrooms_11_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_17_247
+  title: Gourds 17 247
+spec:
+  children: []
+  parent: gourds_5_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchinis_18_247
+  title: Zucchinis 18 247
+spec:
+  children: []
+  parent: onions_4_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pumpkins_19_247
+  title: Pumpkins 19 247
+spec:
+  children: []
+  parent: mushrooms_11_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_20_247
+  title: Cucumbers 20 247
+spec:
+  children: []
+  parent: zucchinis_10_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_21_247
+  title: Cucumbers 21 247
+spec:
+  children: []
+  parent: peas_0_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peppers_22_247
+  title: Peppers 22 247
+spec:
+  children: []
+  parent: zucchinis_18_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mushrooms_23_247
+  title: Mushrooms 23 247
+spec:
+  children: []
+  parent: carrots_9_247
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_24_247
+  title: Parsnips 24 247
+spec:
+  children: []
+  parent: peppers_16_247
+  type: team
+---

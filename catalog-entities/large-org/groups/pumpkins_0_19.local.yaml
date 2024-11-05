@@ -1,0 +1,249 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pumpkins_0_19
+  title: Pumpkins 0 19
+spec:
+  children: []
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mushrooms_1_19
+  title: Mushrooms 1 19
+spec:
+  children: []
+  parent: pumpkins_0_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peppers_2_19
+  title: Peppers 2 19
+spec:
+  children: []
+  parent: mushrooms_1_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: turnips_3_19
+  title: Turnips 3 19
+spec:
+  children: []
+  parent: peppers_2_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mushrooms_4_19
+  title: Mushrooms 4 19
+spec:
+  children: []
+  parent: mushrooms_1_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: onions_5_19
+  title: Onions 5 19
+spec:
+  children: []
+  parent: mushrooms_4_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: carrots_6_19
+  title: Carrots 6 19
+spec:
+  children: []
+  parent: mushrooms_1_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: shallots_7_19
+  title: Shallots 7 19
+spec:
+  children: []
+  parent: peppers_2_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_8_19
+  title: Cucumbers 8 19
+spec:
+  children: []
+  parent: peppers_2_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: shallots_9_19
+  title: Shallots 9 19
+spec:
+  children: []
+  parent: mushrooms_1_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gourds_10_19
+  title: Gourds 10 19
+spec:
+  children: []
+  parent: onions_5_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pumpkins_11_19
+  title: Pumpkins 11 19
+spec:
+  children: []
+  parent: carrots_6_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mushrooms_12_19
+  title: Mushrooms 12 19
+spec:
+  children: []
+  parent: gourds_10_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: shallots_13_19
+  title: Shallots 13 19
+spec:
+  children: []
+  parent: shallots_7_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tomatoes_14_19
+  title: Tomatoes 14 19
+spec:
+  children: []
+  parent: shallots_7_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tomatoes_15_19
+  title: Tomatoes 15 19
+spec:
+  children: []
+  parent: peppers_2_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: turnips_16_19
+  title: Turnips 16 19
+spec:
+  children: []
+  parent: pumpkins_11_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peas_17_19
+  title: Peas 17 19
+spec:
+  children: []
+  parent: pumpkins_11_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cucumbers_18_19
+  title: Cucumbers 18 19
+spec:
+  children: []
+  parent: pumpkins_0_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: parsnips_19_19
+  title: Parsnips 19 19
+spec:
+  children: []
+  parent: tomatoes_14_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: shallots_20_19
+  title: Shallots 20 19
+spec:
+  children: []
+  parent: cucumbers_8_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: peas_21_19
+  title: Peas 21 19
+spec:
+  children: []
+  parent: shallots_7_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zucchinis_22_19
+  title: Zucchinis 22 19
+spec:
+  children: []
+  parent: pumpkins_0_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: onions_23_19
+  title: Onions 23 19
+spec:
+  children: []
+  parent: cucumbers_18_19
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: carrots_24_19
+  title: Carrots 24 19
+spec:
+  children: []
+  parent: shallots_13_19
+  type: team
+---

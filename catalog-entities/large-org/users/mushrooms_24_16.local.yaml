@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: breadfruit_126
+spec:
+  memberOf:
+  - mushrooms_24_16
+  profile:
+    displayName: Breadfruit 126
+    email: breadfruit-126@example.com
+---
