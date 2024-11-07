@@ -4,7 +4,7 @@ metadata:
   name: cyber-stalker-bit
 spec:
   memberOf:
-  - group:default/pumpkin_27
+  - group:default/peppers_31
   profile:
     displayName: Cyber Stalker
     email: marketo0user@gmail.com
