@@ -8,8 +8,16 @@
 # Prerequisites:
 # RHDH deployed on OpenShift with replicas > 1
 # Route contains annotation "haproxy.router.openshift.io/balance": "roundrobin"
+# Also maybe you will need to provide higher max postgres connections limit. You can do it inside the pod:
+# $ psql -h 127.0.0.1 -p 5432 -U postgres
+#  Provide more connections:
+# ALTER SYSTEM SET max_connections = 200;
+# Restart postgres statefulset. You can rescale it to 0 and then to 1.
+# To check current limit:
+# $ psql -h 127.0.0.1 -p 5432 -U postgres
+# $ SHOW max_connections;
 #
-# Example, how to run: 
+# Example, how to run script: 
 # python3 read-consistancy-checker.py > ~/log-fix-1000-request-10iterations.txt 2>&1
 
 import traceback
